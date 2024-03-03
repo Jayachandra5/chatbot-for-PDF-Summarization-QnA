@@ -1,4 +1,4 @@
-# chatbot
+# chatbot for PDF-Summarization-QnA
 cd embeddings_Backend
 npm install
 
@@ -16,7 +16,7 @@ UI will start in http://localhost:5173/
 	tick clear - if clean is req. This only works on first textbox enter
 
 Banckend will start in http://localhost:5100
-Before start update .env located in custom_chat_gpt folder with all Keys
+Before start update .env located in embeddings_Backend folder with all Keys
 =====================================
 You need to take account in https://airtable.com/
 
