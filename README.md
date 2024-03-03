@@ -4,7 +4,7 @@ npm install
 
 cd../
 
-cd custom_chat_gpt_frontend
+cd frontend
 npm install
 npm start
 
