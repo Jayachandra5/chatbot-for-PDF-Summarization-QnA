@@ -1,10 +1,10 @@
 # chatbot for PDF-Summarization-QnA
 
-Overview
+## Overview
 This project is a chatbot designed for summarizing PDF documents and answering user questions based on their content. It consists of a frontend and a backend component. The frontend provides a user interface for interacting with the chatbot, while the backend handles the PDF processing, question answering, and communication with external services such as Airtable and OpenAI.
 
 
-Installation
+## Installation
 To set up the project, follow these steps:
 
 Clone the repository: git clone https://github.com/Jayachandra5/chatbot-for-PDF-Summarization-QnA
@@ -30,7 +30,7 @@ The backend will be running at http://localhost:5100. Before starting, ensure th
 
 Before You start Configure 
 
-Configuration
+## Configuration
 Airtable Integration
 This project uses Airtable for data management. You need to create an Airtable account and set up a base with the following details:
 You need to take account in https://airtable.com/
@@ -50,8 +50,9 @@ OpenAI Integration
 This project also integrates with OpenAI for natural language processing tasks. You need to obtain an API key from OpenAI and update the .env file with the key:
 OPENAI_API_KEY=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
 
-Additional Notes
+## Additional Notes
 Backup: A backup of the Airtable table (Table 1) in the specified view (MyView) has been provided as airtable_backup.csv.
 Usage Instructions: Enter text in the textbox provided in the frontend UI to interact with the chatbot. You can upload PDF documents, ask questions, and receive summaries based on the content.
-Contributing
+
+## Contributing
 Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
