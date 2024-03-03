@@ -1,5 +1,5 @@
 # chatbot
-cd custom_chat_gpt
+cd embeddings_Backend
 npm install
 
 cd../
